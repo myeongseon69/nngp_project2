@@ -84,7 +84,7 @@ Therefore, finding an appropriate depth is important for maximizing model perfor
 
 3.5 Limitation of this study
 
-The original paper used up to 50k traning set for mnist and up to 45k training set for cifar10 data. However, for this project, training set up to 10k for both data sets were used due to the computational constraints (limit of memory). 
+The original paper used training sets of up to 50,000 samples for the MNIST dataset and up to 45,000 samples for the CIFAR-10 dataset. However, due to computational constraints, particularly limited memory, training sets of up to 10,000 samples were used for both datasets in this project. 
 
 3.6 Future Study
 
