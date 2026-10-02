@@ -1,3 +1,5 @@
+## Github repository: https://github.com/myeongseon69/nngp_project2
+
 ## For the original publication, please refer to this one and citation informatio at the bottom. 
 
 [**Deep Neural Networks as Gaussian Processes**](https://arxiv.org/abs/1711.00165)
