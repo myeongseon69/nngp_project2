@@ -93,17 +93,6 @@ AI was used to check and improve the grammar and expression of this manuscript, 
 ## Contact
 Myeongseon Lee, myeongseon.lee@colorado.edu
 
-## Citation
-```
-  @article{
-    lee2018deep,
-    title={Deep Neural Networks as Gaussian Processes},
-    author={Jaehoon Lee, Yasaman Bahri, Roman Novak, Sam Schoenholz, Jeffrey Pennington, Jascha Sohl-dickstein},
-    journal={International Conference on Learning Representations},
-    year={2018},
-    url={https://openreview.net/forum?id=B1EA-M-0Z},
-  }
-```
 
 ## Note
 
