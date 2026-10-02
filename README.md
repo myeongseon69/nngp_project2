@@ -82,7 +82,11 @@ When the depth is below this optimal point, the model may have insufficient capa
 
 Therefore, finding an appropriate depth is important for maximizing model performance.
 
-3.5 Future Study
+3.5 Limitation of this study
+
+The original paper used up to 50k traning set for mnist and up to 45k training set for cifar10 data. However, for this project, training set up to 10k for both data sets were used due to the computational constraints (limit of memory). 
+
+3.6 Future Study
 
 The initial plan for the unique extension of Project 2 was to investigate different activation functions, such as sigmoid and softmax. However, these activation functions are typically used in output layers. It would also be interesting to investigate how these activation functions behave when used in the hidden layers of an NNGP. In addition, the authors of the original paper suggested investigating the use of dropout as a direction for future study. Therefore, investigating different activation functions in hidden layers and the effect of dropout could be worthwhile directions for future research.
 
