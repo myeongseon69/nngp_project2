@@ -50,19 +50,19 @@ The resulting table can be found in /output/Table2/.
 
 ### 3. A Unique Extension
 
-3.1 Motivation
+#### 3.1 Motivation
 
 Most machine learning models can experience underfitting or overfitting before the final model is determined. NNGPs may also exhibit these issues. One way to address them is to adjust the complexity of the model.
 
 For neural networks, model complexity can be adjusted by changing the width and depth of the hidden layers. Since the width of an NNGP is unlimited, changing its depth is a possible way to adjust its complexity. Therefore, this unique extension experiment investigates the effect of NNGP depth on the performance of the models and examines whether different depths are associated with underfitting or overfitting behavior.
 
-3.2 Methods
+#### 3.2 Methods
 
 The weight variance and bias variance were fixed, and various network depths were tested with different training set sizes to determine whether there was a trend in the depth that produced the best performance (accuracy and MSE). For this experiment, mnist and tanh were used.
 
 Three different sets of weight variance and bias variance were tested to determine whether the observed trend was consistent across different hyperparameter settings.
 
-3.3 Results
+#### 3.3 Results
 
 There are two main findings.
 
@@ -72,7 +72,7 @@ Second, the depth at which maximum accuracy (or minimum MSE) occurs tends to bec
 
 The results can be found in /output/Unique_extension/
 
-3.4 Discussion and Conclusion
+#### 3.4 Discussion and Conclusion
 
 I was able to reproduce Figure 8 and Table 2. Initially, the same hyperparameters as those used in the original paper were used. The exact same results were reproduced in some cases. However, the hyperparameters had to be adjusted in other cases in order to reproduce the same or similar results. The reason why the original hyperparameters did not produce the same results in all cases is still unclear.
 
@@ -82,11 +82,11 @@ When the depth is below this optimal point, the model may have insufficient capa
 
 Therefore, finding an appropriate depth is important for maximizing model performance.
 
-3.5 Limitation of this study
+#### 3.5 Limitation of this study
 
 The original paper used training sets of up to 50,000 samples for the MNIST dataset and up to 45,000 samples for the CIFAR-10 dataset. However, due to computational constraints, particularly limited memory, training sets of up to 10,000 samples were used for both datasets in this project. 
 
-3.6 Future Study
+#### 3.6 Future Study
 
 The initial plan for the unique extension of Project 2 was to investigate different activation functions, such as sigmoid and softmax. However, these activation functions are typically used in output layers. It would also be interesting to investigate how these activation functions behave when used in the hidden layers of an NNGP. In addition, the authors of the original paper suggested investigating the use of dropout as a direction for future study. Therefore, investigating different activation functions in hidden layers and the effect of dropout could be worthwhile directions for future research.
 
